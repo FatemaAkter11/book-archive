@@ -12,7 +12,18 @@
 </head>
 
 <body>
+    <h2 class="text-center text-info py-5">Search your favorite book</h2>
+    <!-- book search area -->
+    <div class="input-group mx-auto  w-50">
+        <input type="text" id="search-input" class="form-control" placeholder="Please Enter a Book Name">
+        <button onclick="searchBook()" class="btn btn-success" type="button" id="search-btn">Search</button>
+    </div>
+    <!-- Error message-->
+    <div id="error" class="text-center"></div>
 
+    <!-- food search result -->
+    <div id="search-result" class="row row-cols-1 row-cols-md-3 g-4">
+    </div>
 
     <!-- js bundle -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js"
