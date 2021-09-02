@@ -16,15 +16,21 @@
     <!--  book search area -->
     <section class="container my-2">
         <!-- Input Box -->
-        <div class="d-flex">
-            <input type="text" class="form-control me-2" placeholder="Enter Book Name" id="searchInput" />
-            <button class="btn btn-dark" id="search-btn">Search</button>
+        <!-- search input -->
+        <div class="input-group mx-auto  w-50">
+            <input type="text" id="search-input" class="form-control"
+                placeholder="Please Enter Book Name e.g javascript">
+            <button class="btn btn-success" type="button" id="search-btn">Search</button>
         </div>
+        <!-- <div class="mx-auto">
+            <input type="text" class="form-control me-2" placeholder="Please Enter Book Name e.g javascript"
+                id="search-input" />
+            <button class="btn btn-dark" id="search-btn">Search</button>
+        </div> -->
     </section>
     <section class="container">
         <!--book details -->
         <div class="row" id="book-details"></div>
-
     </section>
     <section class="container mt-2">
         <!-- error handling -->

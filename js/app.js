@@ -1,4 +1,4 @@
-const searchInput = document.getElementById("searchInput");
+const searchInput = document.getElementById("search-input");
 const searchBtn = document.getElementById("search-btn");
 const bookContainer = document.getElementById("book-container");
 const errorDiv = document.getElementById("error");
