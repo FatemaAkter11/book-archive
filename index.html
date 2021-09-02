@@ -15,18 +15,12 @@
     <h2 class="text-center text-info py-5">Welcome to my <span class="text-secondary fw-bold">Book-Archive</span> </h2>
     <!--  book search area -->
     <section class="container my-2">
-        <!-- Input Box -->
         <!-- search input -->
         <div class="input-group mx-auto  w-50">
             <input type="text" id="search-input" class="form-control"
                 placeholder="Please Enter Book Name e.g javascript">
             <button class="btn btn-success" type="button" id="search-btn">Search</button>
         </div>
-        <!-- <div class="mx-auto">
-            <input type="text" class="form-control me-2" placeholder="Please Enter Book Name e.g javascript"
-                id="search-input" />
-            <button class="btn btn-dark" id="search-btn">Search</button>
-        </div> -->
     </section>
     <section class="container">
         <!--book details -->
@@ -35,9 +29,9 @@
     <section class="container mt-2">
         <!-- error handling -->
         <div id="error"></div>
-        <!-- Books -->
-        <div id="resultFound" class="text-center"></div>
-        <div id="book-container" class="row"></div>
+        <!-- Books result -->
+        <div id="search-result" class="text-center"></div>
+        <div id="book-container" class="row row-cols-1 row-cols-md-3 g-4"></div>
     </section>
 
     <!-- js bundle -->
