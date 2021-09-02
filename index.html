@@ -12,17 +12,17 @@
 </head>
 
 <body>
-    <h2 class="text-center text-info py-5">Search your favorite book</h2>
-    <!-- book search area -->
+    <h2 class="text-center text-info py-5">Welcome to my <span class="text-secondary fw-bold">Book-Archive</span> </h2>
+    <!--  book search area -->
     <div class="input-group mx-auto  w-50">
-        <input type="text" id="search-input" class="form-control" placeholder="Please Enter a Book Name">
-        <button onclick="searchBook()" class="btn btn-success" type="button" id="search-btn">Search</button>
+        <input type="text" id="search-input" class="form-control" placeholder="Please Enter a book name e.g javascript">
+        <button onclick="searchBook()" class="btn btn-success" type="button">Search</button>
     </div>
     <!-- Error message-->
     <div id="error" class="text-center"></div>
 
     <!-- food search result -->
-    <div id="search-result" class="row row-cols-1 row-cols-md-3 g-4">
+    <div id="search-result" class="row row-cols-1 row-cols-md-3 g-4 p-4">
     </div>
 
     <!-- js bundle -->
